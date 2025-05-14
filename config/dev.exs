@@ -4,6 +4,7 @@ import Config
 config :phix, Phix.Repo,
   username: "postgres",
   password: "postgres",
+  port: 5433,
   hostname: "localhost",
   database: "phix_dev",
   stacktrace: true,
